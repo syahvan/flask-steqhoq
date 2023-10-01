@@ -1,4 +1,4 @@
-# Python Flask Task Steqhoq Academy
+# Python Flask Task - Steqhoq Academy
 
 This repository contains the implementation of a Flask web authentication system to display charts as part of a task at Steqhoq Academy.
 
