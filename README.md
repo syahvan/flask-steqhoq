@@ -4,7 +4,7 @@ This repository contains the implementation of a Flask web authentication system
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required dependencies
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required dependencies.
 
 ```zsh
 pip install -r requirements.txt 
