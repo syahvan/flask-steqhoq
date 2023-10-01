@@ -19,7 +19,7 @@ data = {
 
 df = pd.DataFrame(data)
 
-app = Flask(__name__)
+app = Flask(__name__,template_folder='templates')
 api = Api(app)
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
