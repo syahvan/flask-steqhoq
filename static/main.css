@@ -1,0 +1,99 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* CSS untuk tombol */
+.btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #618264;
+    border-color: #618264;
+}
+
+/* CSS untuk konten utama */
+.container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+/* CSS untuk navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333; /* Warna latar belakang */
+  }
+  
+  .topnav a {
+    float: left; /* Membuat link berada di sebelah kiri */
+    display: block;
+    color: white; /* Warna teks */
+    text-align: center; /* Pusatkan teks */
+    padding: 14px 16px; /* Ruang padding pada teks */
+    text-decoration: none; /* Hapus garis bawah pada link */
+  }
+  
+  /* Warna teks pada hover */
+  .topnav a:hover {
+    background-color: #ddd; /* Warna latar belakang ketika dihover */
+    color: black; /* Warna teks ketika dihover */
+  }
+  
+  /* Membuat link aktif menjadi berbeda */
+  .topnav a.active {
+    background-color: #618264; /* Warna latar belakang pada link aktif */
+    color: white; /* Warna teks pada link aktif */
+  }
+
+/* Tambahkan margin top untuk memberi jarak antara navigasi bar dan konten */
+.container {
+    margin-top: 20px;
+}
+  
+/* CSS khusus untuk halaman login dan register */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

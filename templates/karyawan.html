@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <title>Grafik Jumlah Karyawan</title>
+    <style>
+        /* CSS khusus untuk halaman karyawan.html */
+        .grafik-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .grafik-container img {
+            max-width: 100%;
+        }
+    </style>
+{% endblock head %}
+
+{% block body %}
+    <div class="container">
+        <h1 class="mt-5">Grafik Jumlah Karyawan</h1>
+        <div class="grafik-container">
+            <img src="{{ url_for('static', filename='karyawan.png') }}" alt="Grafik Jumlah Karyawan">
+        </div>
+        <a href="{{ url_for('dashboard') }}" class="btn btn-primary mt-3">Kembali</a>
+    </div>
+{% endblock body %}

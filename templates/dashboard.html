@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <title>Dashboard</title>
+{% endblock head %}
+
+{% block body %}
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Dashboard Karyawan</h1>
+            <p class="lead">Silakan pilih grafik yang ingin Anda lihat!</p>
+            <a href="{{ url_for('karyawan') }}" class="btn btn-primary btn-lg mr-3">Grafik Jumlah Karyawan</a>
+            <a href="{{ url_for('gaji') }}" class="btn btn-success btn-lg">Grafik Rata-rata Gaji Karyawan</a>
+        </div>
+    </div>
+{% endblock body %}
